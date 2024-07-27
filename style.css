@@ -6,6 +6,14 @@ body {
     display: flex;
     flex-direction: column;
 }
+button {
+    padding: 5px 17px 5px 17px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    color: #f9faf8;
+    margin: 10px 0px 10px 0px;
+}
 /*HEADER SECTION*/
 .header {
     background: #1F2937;
@@ -45,22 +53,32 @@ ul {
 }
 .herocontent {
     display: flex;
+    padding: 0px 0px 75px 0px;
 }
 .lefthero {
     min-width: 50%;
+    font-size: 14px;
+    color: #e5e7ebdc;
 }
 .heromaintext {
     font-size: 35px;
     color: #f9faf8;
     font-weight: 600;
+    margin-bottom: 5px;
 }
 .righthero {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e5e7ebc7;
+    background-color: #e5e7eb7b;
     min-width: 50%;
+    border-radius: 2px;
+    margin: 15px;
+    color: #f9faf8;
+    font-size: smaller;
+    text-align: center;
 }
+
 
 
 
