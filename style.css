@@ -1,24 +1,75 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-    min-height: 100vh;
-    min-width: 100vh;
+    min-height: 100%;
+    min-width: 100%;
     display: flex;
     flex-direction: column;
 }
-
+/*HEADER SECTION*/
 .header {
     background: #1F2937;
-    height: 30vh;
-    align-content: stretch;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+.headerborder {
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px 15px;
 }
 a {
     text-decoration: none;
     color: #e5e7eb;
 }
 ul {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
+    padding-bottom: 50px;
+}
+.logo a{
+    font-size: 15px;
+    color: #F9FAF8;
+    font-weight: 500;
+}
+.headerlinks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.herocontent {
     display: flex;
 }
+.lefthero {
+    min-width: 50%;
+}
+.heromaintext {
+    font-size: 35px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+.righthero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7ebc7;
+    min-width: 50%;
+}
+
+
+
+
+
+/*SOME RANDOM INFORMATION SECTION*/
+
+/*QUOTE SECTION*/
+
+/*CALL TO ACTION SECTION*/
+
+/*FOOTER*/
