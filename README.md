@@ -13,3 +13,5 @@ https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab0
 Image of Color and Fonts:
 https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png
 
+Live Website via Github:
+https://friendswithpenalties.github.io/odin-flex-project-landingpage/
